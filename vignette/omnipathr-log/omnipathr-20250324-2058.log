@@ -1,0 +1,130 @@
+[2025-03-24 20:58:32] [INFO]    [OmnipathR] Welcome to OmnipathR!
+[2025-03-24 20:58:32] [TRACE]   [OmnipathR] Reading JSON from `/Users/hungm/Library/Caches/OmnipathR/cache.json` (encoding: UTF-8).
+[2025-03-24 20:58:32] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2025-03-24 20:58:32] [INFO]    [OmnipathR] Initialized cache: `/Users/hungm/Library/Caches/OmnipathR`.
+[2025-03-24 20:58:32] [TRACE]   [OmnipathR] Reading JSON from `/Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/OmnipathR/db/db_def.json` (encoding: UTF-8).
+[2025-03-24 20:58:32] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2025-03-24 20:58:32] [TRACE]   [OmnipathR] Reading JSON from `/Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/OmnipathR/internal/magic_bytes.json` (encoding: UTF-8).
+[2025-03-24 20:58:32] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2025-03-24 20:58:32] [TRACE]   [OmnipathR] Reading JSON from `/Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/OmnipathR/internal/urls.json` (encoding: UTF-8).
+[2025-03-24 20:58:32] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2025-03-24 20:58:32] [TRACE]   [OmnipathR] Reading JSON from `/Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/OmnipathR/internal/id_types.json` (encoding: UTF-8).
+[2025-03-24 20:58:32] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2025-03-24 23:53:40] [INFO]    [OmnipathR] Loading database `Ensembl and OMA organism names`.
+[2025-03-24 23:53:40] [INFO]    [OmnipathR] Looking up in cache `https://www.ensembl.org/info/about/species.html`: key=7332486db7400730697234bad76ca0c8e4d00799, latest version=1.
+[2025-03-24 23:53:40] [TRACE]   [OmnipathR] Cache file path: /Users/hungm/Library/Caches/OmnipathR/7332486db7400730697234bad76ca0c8e4d00799-1.html
+[2025-03-24 23:53:40] [TRACE]   [OmnipathR] Looking up in cache: `https://omabrowser.org/All/oma-species.txt`.
+[2025-03-24 23:53:40] [TRACE]   [OmnipathR] Loaded data from RDS `/Users/hungm/Library/Caches/OmnipathR/30e690cbb55dfc63b5903ab337f34ffc2f4be397-1.rds`.
+[2025-03-24 23:53:40] [INFO]    [OmnipathR] Loaded database `Ensembl and OMA organism names`.
+[2025-03-24 23:53:40] [TRACE]   [OmnipathR] Looking up in cache: `https://omnipathdb.org/intercell?license=academic`
+[2025-03-24 23:53:41] [TRACE]   [OmnipathR] Loaded data from RDS `/Users/hungm/Library/Caches/OmnipathR/88868f24833199a6a4a8e27980fa32cd50c1c600-1.rds`.
+[2025-03-24 23:53:41] [INFO]    [OmnipathR] Loaded from cache: `https://omnipathdb.org/intercell?license=academic`
+[2025-03-24 23:53:41] [SUCCESS] [OmnipathR] Loaded 332447 intercellular communication role records from cache.
+[2025-03-24 23:55:22] [TRACE]   [OmnipathR] Looking up in cache: `https://omnipathdb.org/intercell?license=academic`
+[2025-03-24 23:55:22] [TRACE]   [OmnipathR] Loaded data from RDS `/Users/hungm/Library/Caches/OmnipathR/88868f24833199a6a4a8e27980fa32cd50c1c600-1.rds`.
+[2025-03-24 23:55:22] [INFO]    [OmnipathR] Loaded from cache: `https://omnipathdb.org/intercell?license=academic`
+[2025-03-24 23:55:23] [SUCCESS] [OmnipathR] Loaded 332447 intercellular communication role records from cache.
+[2025-03-24 23:56:26] [TRACE]   [OmnipathR] Looking up in cache: `https://omnipathdb.org/intercell?license=academic`
+[2025-03-24 23:56:27] [TRACE]   [OmnipathR] Loaded data from RDS `/Users/hungm/Library/Caches/OmnipathR/88868f24833199a6a4a8e27980fa32cd50c1c600-1.rds`.
+[2025-03-24 23:56:27] [INFO]    [OmnipathR] Loaded from cache: `https://omnipathdb.org/intercell?license=academic`
+[2025-03-24 23:56:27] [SUCCESS] [OmnipathR] Loaded 332447 intercellular communication role records from cache.
+[2025-03-24 23:57:19] [TRACE]   [OmnipathR] Looking up in cache: `https://omnipathdb.org/intercell?license=academic`
+[2025-03-24 23:57:20] [TRACE]   [OmnipathR] Loaded data from RDS `/Users/hungm/Library/Caches/OmnipathR/88868f24833199a6a4a8e27980fa32cd50c1c600-1.rds`.
+[2025-03-24 23:57:20] [INFO]    [OmnipathR] Loaded from cache: `https://omnipathdb.org/intercell?license=academic`
+[2025-03-24 23:57:20] [SUCCESS] [OmnipathR] Loaded 332447 intercellular communication role records from cache.
+[2025-03-25 00:02:10] [TRACE]   [OmnipathR] Looking up in cache: `https://omnipathdb.org/intercell?license=academic`
+[2025-03-25 00:02:10] [TRACE]   [OmnipathR] Loaded data from RDS `/Users/hungm/Library/Caches/OmnipathR/88868f24833199a6a4a8e27980fa32cd50c1c600-1.rds`.
+[2025-03-25 00:02:10] [INFO]    [OmnipathR] Loaded from cache: `https://omnipathdb.org/intercell?license=academic`
+[2025-03-25 00:02:10] [SUCCESS] [OmnipathR] Loaded 332447 intercellular communication role records from cache.
+[2025-03-25 00:06:47] [TRACE]   [OmnipathR] Looking up in cache: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=10090&dorothea_levels=A,B&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:06:47] [INFO]    [OmnipathR] Cache record does not exist: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=10090&dorothea_levels=A,B&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:06:47] [TRACE]   [OmnipathR] Looking up in cache: `http://no-tls.omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=10090&dorothea_levels=A,B&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:06:47] [INFO]    [OmnipathR] Cache record does not exist: `http://no-tls.omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=10090&dorothea_levels=A,B&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:06:47] [TRACE]   [OmnipathR] Attempting `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=10090&dorothea_levels=A,B&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:06:47] [INFO]    [OmnipathR] Retrieving URL: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=10090&dorothea_levels=A,B&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:06:47] [TRACE]   [OmnipathR] Attempt 1/3: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=10090&dorothea_levels=A,B&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:06:49] [INFO]    [OmnipathR] Successfully retrieved: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=10090&dorothea_levels=A,B&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:06:49] [TRACE]   [OmnipathR] Reading JSON from `/Users/hungm/Library/Caches/OmnipathR/cache.json` (encoding: UTF-8).
+[2025-03-25 00:06:49] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2025-03-25 00:06:49] [TRACE]   [OmnipathR] Reading JSON from `/Users/hungm/Library/Caches/OmnipathR/cache.json` (encoding: UTF-8).
+[2025-03-25 00:06:49] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2025-03-25 00:06:49] [INFO]    [OmnipathR] Cache item `72ffaa6421ca2da70d09e2488d543b7fa2733602` version 1: status changed from `unknown` to `started`.
+[2025-03-25 00:06:49] [TRACE]   [OmnipathR] Exporting object to RDS: `/Users/hungm/Library/Caches/OmnipathR/72ffaa6421ca2da70d09e2488d543b7fa2733602-1.rds`.
+[2025-03-25 00:06:49] [TRACE]   [OmnipathR] Exported RDS to `/Users/hungm/Library/Caches/OmnipathR/72ffaa6421ca2da70d09e2488d543b7fa2733602-1.rds`.
+[2025-03-25 00:06:49] [INFO]    [OmnipathR] Download ready [key=72ffaa6421ca2da70d09e2488d543b7fa2733602, version=1]
+[2025-03-25 00:06:49] [TRACE]   [OmnipathR] Reading JSON from `/Users/hungm/Library/Caches/OmnipathR/cache.json` (encoding: UTF-8).
+[2025-03-25 00:06:49] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2025-03-25 00:06:49] [INFO]    [OmnipathR] Cache item `72ffaa6421ca2da70d09e2488d543b7fa2733602` version 1: status changed from `started` to `ready`.
+[2025-03-25 00:06:49] [TRACE]   [OmnipathR] Converting JSON column `evidences` to list.
+[2025-03-25 00:06:49] [TRACE]   [OmnipathR] Restricting interaction records to datasets: dorothea; and resources: any
+[2025-03-25 00:06:49] [TRACE]   [OmnipathR] Filtering evidence columns: positive, negative, directed, undirected; to datasets: dorothea; and resources: any; excluding resources: none
+[2025-03-25 00:06:54] [SUCCESS] [OmnipathR] Downloaded 2814 interactions.
+[2025-03-25 00:14:40] [TRACE]   [OmnipathR] Looking up in cache: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=10090&dorothea_levels=A&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:14:40] [INFO]    [OmnipathR] Cache record does not exist: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=10090&dorothea_levels=A&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:14:40] [TRACE]   [OmnipathR] Looking up in cache: `http://no-tls.omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=10090&dorothea_levels=A&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:14:40] [INFO]    [OmnipathR] Cache record does not exist: `http://no-tls.omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=10090&dorothea_levels=A&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:14:40] [TRACE]   [OmnipathR] Attempting `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=10090&dorothea_levels=A&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:14:40] [INFO]    [OmnipathR] Retrieving URL: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=10090&dorothea_levels=A&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:14:40] [TRACE]   [OmnipathR] Attempt 1/3: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=10090&dorothea_levels=A&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:14:41] [INFO]    [OmnipathR] Successfully retrieved: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=10090&dorothea_levels=A&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:14:41] [TRACE]   [OmnipathR] Reading JSON from `/Users/hungm/Library/Caches/OmnipathR/cache.json` (encoding: UTF-8).
+[2025-03-25 00:14:41] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2025-03-25 00:14:41] [TRACE]   [OmnipathR] Reading JSON from `/Users/hungm/Library/Caches/OmnipathR/cache.json` (encoding: UTF-8).
+[2025-03-25 00:14:41] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2025-03-25 00:14:41] [INFO]    [OmnipathR] Cache item `e7ab17f008c9eb6149e7f41f26c0c5799ab5bf90` version 1: status changed from `unknown` to `started`.
+[2025-03-25 00:14:41] [TRACE]   [OmnipathR] Exporting object to RDS: `/Users/hungm/Library/Caches/OmnipathR/e7ab17f008c9eb6149e7f41f26c0c5799ab5bf90-1.rds`.
+[2025-03-25 00:14:41] [TRACE]   [OmnipathR] Exported RDS to `/Users/hungm/Library/Caches/OmnipathR/e7ab17f008c9eb6149e7f41f26c0c5799ab5bf90-1.rds`.
+[2025-03-25 00:14:41] [INFO]    [OmnipathR] Download ready [key=e7ab17f008c9eb6149e7f41f26c0c5799ab5bf90, version=1]
+[2025-03-25 00:14:41] [TRACE]   [OmnipathR] Reading JSON from `/Users/hungm/Library/Caches/OmnipathR/cache.json` (encoding: UTF-8).
+[2025-03-25 00:14:41] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2025-03-25 00:14:41] [INFO]    [OmnipathR] Cache item `e7ab17f008c9eb6149e7f41f26c0c5799ab5bf90` version 1: status changed from `started` to `ready`.
+[2025-03-25 00:14:41] [TRACE]   [OmnipathR] Converting JSON column `evidences` to list.
+[2025-03-25 00:14:42] [TRACE]   [OmnipathR] Restricting interaction records to datasets: dorothea; and resources: any
+[2025-03-25 00:14:42] [TRACE]   [OmnipathR] Filtering evidence columns: positive, negative, directed, undirected; to datasets: dorothea; and resources: any; excluding resources: none
+[2025-03-25 00:14:44] [SUCCESS] [OmnipathR] Downloaded 2814 interactions.
+[2025-03-25 00:16:43] [TRACE]   [OmnipathR] Looking up in cache: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=9606&dorothea_levels=A&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:16:43] [INFO]    [OmnipathR] Cache record does not exist: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=9606&dorothea_levels=A&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:16:43] [TRACE]   [OmnipathR] Looking up in cache: `http://no-tls.omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=9606&dorothea_levels=A&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:16:43] [INFO]    [OmnipathR] Cache record does not exist: `http://no-tls.omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=9606&dorothea_levels=A&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:16:43] [TRACE]   [OmnipathR] Attempting `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=9606&dorothea_levels=A&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:16:43] [INFO]    [OmnipathR] Retrieving URL: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=9606&dorothea_levels=A&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:16:43] [TRACE]   [OmnipathR] Attempt 1/3: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=9606&dorothea_levels=A&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:16:44] [INFO]    [OmnipathR] Successfully retrieved: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=9606&dorothea_levels=A&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:16:44] [TRACE]   [OmnipathR] Reading JSON from `/Users/hungm/Library/Caches/OmnipathR/cache.json` (encoding: UTF-8).
+[2025-03-25 00:16:44] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2025-03-25 00:16:44] [TRACE]   [OmnipathR] Reading JSON from `/Users/hungm/Library/Caches/OmnipathR/cache.json` (encoding: UTF-8).
+[2025-03-25 00:16:44] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2025-03-25 00:16:44] [INFO]    [OmnipathR] Cache item `cec89bc1fe3ebef967abba1c60b7aed92bbdbe90` version 1: status changed from `unknown` to `started`.
+[2025-03-25 00:16:44] [TRACE]   [OmnipathR] Exporting object to RDS: `/Users/hungm/Library/Caches/OmnipathR/cec89bc1fe3ebef967abba1c60b7aed92bbdbe90-1.rds`.
+[2025-03-25 00:16:44] [TRACE]   [OmnipathR] Exported RDS to `/Users/hungm/Library/Caches/OmnipathR/cec89bc1fe3ebef967abba1c60b7aed92bbdbe90-1.rds`.
+[2025-03-25 00:16:44] [INFO]    [OmnipathR] Download ready [key=cec89bc1fe3ebef967abba1c60b7aed92bbdbe90, version=1]
+[2025-03-25 00:16:44] [TRACE]   [OmnipathR] Reading JSON from `/Users/hungm/Library/Caches/OmnipathR/cache.json` (encoding: UTF-8).
+[2025-03-25 00:16:44] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2025-03-25 00:16:44] [INFO]    [OmnipathR] Cache item `cec89bc1fe3ebef967abba1c60b7aed92bbdbe90` version 1: status changed from `started` to `ready`.
+[2025-03-25 00:16:44] [TRACE]   [OmnipathR] Converting JSON column `evidences` to list.
+[2025-03-25 00:16:44] [TRACE]   [OmnipathR] Restricting interaction records to datasets: dorothea; and resources: any
+[2025-03-25 00:16:44] [TRACE]   [OmnipathR] Filtering evidence columns: positive, negative, directed, undirected; to datasets: dorothea; and resources: any; excluding resources: none
+[2025-03-25 00:16:47] [SUCCESS] [OmnipathR] Downloaded 6127 interactions.
+[2025-03-25 00:17:22] [TRACE]   [OmnipathR] Looking up in cache: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=9606&dorothea_levels=A,B&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:17:22] [INFO]    [OmnipathR] Cache record does not exist: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=9606&dorothea_levels=A,B&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:17:22] [TRACE]   [OmnipathR] Looking up in cache: `http://no-tls.omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=9606&dorothea_levels=A,B&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:17:22] [INFO]    [OmnipathR] Cache record does not exist: `http://no-tls.omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=9606&dorothea_levels=A,B&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:17:22] [TRACE]   [OmnipathR] Attempting `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=9606&dorothea_levels=A,B&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:17:22] [INFO]    [OmnipathR] Retrieving URL: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=9606&dorothea_levels=A,B&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:17:22] [TRACE]   [OmnipathR] Attempt 1/3: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=9606&dorothea_levels=A,B&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:17:24] [INFO]    [OmnipathR] Successfully retrieved: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=9606&dorothea_levels=A,B&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 00:17:24] [TRACE]   [OmnipathR] Reading JSON from `/Users/hungm/Library/Caches/OmnipathR/cache.json` (encoding: UTF-8).
+[2025-03-25 00:17:24] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2025-03-25 00:17:24] [TRACE]   [OmnipathR] Reading JSON from `/Users/hungm/Library/Caches/OmnipathR/cache.json` (encoding: UTF-8).
+[2025-03-25 00:17:24] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2025-03-25 00:17:24] [INFO]    [OmnipathR] Cache item `8468b6b044138574e928fc747dcdd6f23fec5beb` version 1: status changed from `unknown` to `started`.
+[2025-03-25 00:17:24] [TRACE]   [OmnipathR] Exporting object to RDS: `/Users/hungm/Library/Caches/OmnipathR/8468b6b044138574e928fc747dcdd6f23fec5beb-1.rds`.
+[2025-03-25 00:17:24] [TRACE]   [OmnipathR] Exported RDS to `/Users/hungm/Library/Caches/OmnipathR/8468b6b044138574e928fc747dcdd6f23fec5beb-1.rds`.
+[2025-03-25 00:17:24] [INFO]    [OmnipathR] Download ready [key=8468b6b044138574e928fc747dcdd6f23fec5beb, version=1]
+[2025-03-25 00:17:24] [TRACE]   [OmnipathR] Reading JSON from `/Users/hungm/Library/Caches/OmnipathR/cache.json` (encoding: UTF-8).
+[2025-03-25 00:17:24] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2025-03-25 00:17:24] [INFO]    [OmnipathR] Cache item `8468b6b044138574e928fc747dcdd6f23fec5beb` version 1: status changed from `started` to `ready`.
+[2025-03-25 00:17:24] [TRACE]   [OmnipathR] Converting JSON column `evidences` to list.
+[2025-03-25 00:17:24] [TRACE]   [OmnipathR] Restricting interaction records to datasets: dorothea; and resources: any
+[2025-03-25 00:17:24] [TRACE]   [OmnipathR] Filtering evidence columns: positive, negative, directed, undirected; to datasets: dorothea; and resources: any; excluding resources: none
+[2025-03-25 00:17:32] [SUCCESS] [OmnipathR] Downloaded 15262 interactions.

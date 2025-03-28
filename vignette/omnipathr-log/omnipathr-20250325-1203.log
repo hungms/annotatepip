@@ -1,0 +1,29 @@
+[2025-03-25 12:03:47] [INFO]    [OmnipathR] Welcome to OmnipathR!
+[2025-03-25 12:03:47] [TRACE]   [OmnipathR] Reading JSON from `/Users/hungm/Library/Caches/OmnipathR/cache.json` (encoding: UTF-8).
+[2025-03-25 12:03:47] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2025-03-25 12:03:47] [INFO]    [OmnipathR] Initialized cache: `/Users/hungm/Library/Caches/OmnipathR`.
+[2025-03-25 12:03:47] [TRACE]   [OmnipathR] Reading JSON from `/Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/OmnipathR/db/db_def.json` (encoding: UTF-8).
+[2025-03-25 12:03:47] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2025-03-25 12:03:47] [TRACE]   [OmnipathR] Reading JSON from `/Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/OmnipathR/internal/magic_bytes.json` (encoding: UTF-8).
+[2025-03-25 12:03:47] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2025-03-25 12:03:47] [TRACE]   [OmnipathR] Reading JSON from `/Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/OmnipathR/internal/urls.json` (encoding: UTF-8).
+[2025-03-25 12:03:47] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2025-03-25 12:03:47] [TRACE]   [OmnipathR] Reading JSON from `/Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/OmnipathR/internal/id_types.json` (encoding: UTF-8).
+[2025-03-25 12:03:47] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2025-03-25 22:48:17] [INFO]    [OmnipathR] Loading database `Ensembl and OMA organism names`.
+[2025-03-25 22:48:17] [INFO]    [OmnipathR] Looking up in cache `https://www.ensembl.org/info/about/species.html`: key=7332486db7400730697234bad76ca0c8e4d00799, latest version=1.
+[2025-03-25 22:48:17] [TRACE]   [OmnipathR] Cache file path: /Users/hungm/Library/Caches/OmnipathR/7332486db7400730697234bad76ca0c8e4d00799-1.html
+[2025-03-25 22:48:17] [TRACE]   [OmnipathR] Looking up in cache: `https://omabrowser.org/All/oma-species.txt`.
+[2025-03-25 22:48:17] [TRACE]   [OmnipathR] Loaded data from RDS `/Users/hungm/Library/Caches/OmnipathR/30e690cbb55dfc63b5903ab337f34ffc2f4be397-1.rds`.
+[2025-03-25 22:48:18] [INFO]    [OmnipathR] Loaded database `Ensembl and OMA organism names`.
+[2025-03-25 22:48:18] [TRACE]   [OmnipathR] Looking up in cache: `https://omnipathdb.org/intercell?license=academic`
+[2025-03-25 22:48:18] [TRACE]   [OmnipathR] Loaded data from RDS `/Users/hungm/Library/Caches/OmnipathR/88868f24833199a6a4a8e27980fa32cd50c1c600-1.rds`.
+[2025-03-25 22:48:18] [INFO]    [OmnipathR] Loaded from cache: `https://omnipathdb.org/intercell?license=academic`
+[2025-03-25 22:48:18] [SUCCESS] [OmnipathR] Loaded 332447 intercellular communication role records from cache.
+[2025-03-25 22:48:20] [TRACE]   [OmnipathR] Looking up in cache: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=9606&dorothea_levels=A,B&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 22:48:20] [TRACE]   [OmnipathR] Loaded data from RDS `/Users/hungm/Library/Caches/OmnipathR/8468b6b044138574e928fc747dcdd6f23fec5beb-1.rds`.
+[2025-03-25 22:48:20] [INFO]    [OmnipathR] Loaded from cache: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=dorothea&organisms=9606&dorothea_levels=A,B&fields=evidences,sources,references,curation_effort,dorothea_level&license=academic`
+[2025-03-25 22:48:20] [TRACE]   [OmnipathR] Converting JSON column `evidences` to list.
+[2025-03-25 22:48:21] [TRACE]   [OmnipathR] Restricting interaction records to datasets: dorothea; and resources: any
+[2025-03-25 22:48:21] [TRACE]   [OmnipathR] Filtering evidence columns: positive, negative, directed, undirected; to datasets: dorothea; and resources: any; excluding resources: none
+[2025-03-25 22:48:27] [SUCCESS] [OmnipathR] Downloaded 15262 interactions.

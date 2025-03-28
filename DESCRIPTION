@@ -1,0 +1,18 @@
+Package: annotatepip
+Title: Gene Annotation Pipelines
+Version: 0.0.0
+Authors@R: 
+    person(given = "Miu Shing", family = "Hung", email = "matthewhungms@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0009-0004-0412-4374"))
+Description: Gene annotation pipelines
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+URL: https://hungms.github.io/deseq2pip/
+LazyData: true
+Depends: 
+    BiocManager,
+    tidyverse,
+    R (>= 4.0.0),
+    biomaRt,
+    OmnipathR

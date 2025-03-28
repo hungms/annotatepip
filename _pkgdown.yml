@@ -1,0 +1,36 @@
+url: https://hungms.github.io/annotatepip
+authors:
+  Matthew Hung:
+    href: https://hungms.github.io/Portfolio/
+
+template:
+  bootstrap: 5
+  bootswatch: flatly
+
+navbar:
+  structure:
+    left:
+      - articles
+      - reference
+    right:
+      - search
+      - github
+      - lightswitch
+
+reference:
+  - title: Strings/Patterns
+    contents:
+      - ends_with(".string")
+  - title: Format Genes
+    contents:
+      - matches("get_xy_genes")
+      - matches("get_mt_genes")
+      - matches("get_str_genes")
+  - title: Gene Conversion
+    contents:
+      - matches("convert_")
+  - title: Format Functions
+    contents:
+      - starts_with("import_")
+      - starts_with("read_")
+      - starts_with("write_")
