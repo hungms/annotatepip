@@ -79,6 +79,6 @@ convert_human_to_mouse <- function(genes, one.to.many = F){
       return(biomart_dict_tmp)}
    else{
       mouse.genes <- biomart_dict_tmp$mouse_gene_symbol %>% unique(.)
-      return(moue.genes)}
+      return(mouse.genes)}
    }
 
