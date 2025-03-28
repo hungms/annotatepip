@@ -68,3 +68,29 @@ write_gct <- function(df, save_name = "", save_dir = getwd()){
     gct.df[4:nrow(gct.df), 3:ncol(gct.df)] <- as.matrix(df)
     gct.df <- as.data.frame(gct.df)
     write.table(gct.df, file = paste0(save_dir, "/", save_name), col.names = F, row.names = F, quote = F, sep = "\t")}
+
+#' add_gene_annotations
+#'
+#' Save dataframe as GCT file
+#' @param df Dataframe
+#' @param gene_column Column contaning gene symbols
+#' @param org Organism, either "human" or "mouse". Default is "human".
+#' @param release Ensembl release. Default is "105".
+#' @return Dataframe with functional annotation of genes
+#' @export
+add_gene_annotations <- function(df, gene_column = "gene", org = "human", release = "105"){
+    stopifnot(org %in% c("human", "mouse"))
+    stopifnot(gene_column %in% colnames(df))
+    stopifnot(is.data.frame(df))
+    if(org == "mouse"){
+        stopifnot(any(str_detect(df[[gene_column]], "[a-z]")) & org == "mouse")}
+    else{
+        stopifnot(!any(str_detect(df[[gene_column]], "[a-z]")) & org == "human")}
+
+    files <- list.files(system.file("extdata", package = "annotatepip"), full.names = T)
+    files <- files[str_detect(files, paste0("release-", release, "_", org, "_omnipath_db.tsv"))]
+    annot <- read.table(files, header = T, row.names = 1)
+    df <- merge(df, annot, by.x = gene_column, by.y = paste0(org, "_gene_symbol"), all.x = T) %>%
+        mutate(gene = Row.names)
+    return(df)
+}
